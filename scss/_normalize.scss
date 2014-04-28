@@ -49,6 +49,11 @@ $normalize-tables                   : true !default;
             *display: inline;
         }
     }
+    @if $legacy-support-for-ie8 == true {
+        .lt-ie8 & {
+            *vertical-align: auto;
+        }
+    }
 }
 
 @mixin _vendor($property, $value...) {
@@ -74,11 +79,6 @@ $normalize-tables                   : true !default;
 %inline-block {
     @include _inline-block;
     vertical-align: baseline;
-    @if $legacy-support-for-ie8 == true {
-        *display: inline;
-        *vertical-align: auto;
-        *zoom: 1;
-    }
 }
 
 
