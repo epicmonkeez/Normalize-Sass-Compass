@@ -1,22 +1,23 @@
-# **Normalize v3 for SASS/Compass**
-##### ** v0.5**
+# **Normalize v3**
+##### **for SASS/Compass v0.5**
 
 [Normalize.css](https://github.com/necolas/normalize.css) is a customisable CSS file that makes browsers render all elements more consistently and in line with modern standards. But for some projects you might not need forms, so why reset them? For some projects you might not need tables, so why reset them?
 
-We have decided to break normalize.css apart and put it back together again. With '_normalize.scss' you have now the ability to use only the resets you need, add your own custom resets and change browser support. `Normalize.scss` supports also [Modernizr](http://modernizr.com/).
+We have decided to break normalize.css apart and put it back together again. With `_normalize.scss` you have now the ability to use only the resets you need, add your own custom resets and change browser support. `Normalize.scss` supports also [Modernizr](http://modernizr.com/).
 
 ### **USAGE**
 
-No other styles should come before _normalize.scss other than sass/compass settings, mixins or dependencies.
+No other styles should come before `_normalize.scss` other than sass/compass settings, mixins or dependencies.
 
 Include the _normalize.scss file in your Sass/Compass directory and import it into your main stylesheet:
 
-``@import 'normalize';
+`@import 'normalize';`
 
 ### **SETTINGS**
 
 The following settings may be changed:
-``// -------------------------------------------------------------------------------
+```
+// -------------------------------------------------------------------------------
 // LEGACY SUPPORT
 // -------------------------------------------------------------------------------
 
@@ -50,7 +51,8 @@ $normalize-textlevel                : true;
 $normalize-embeded-content          : true;
 $normalize-grouping-content         : true;
 $normalize-forms                    : true;
-$normalize-tables                   : true;``
+$normalize-tables                   : true;
+```
 
 ### **DEPENDENCIES**
 
