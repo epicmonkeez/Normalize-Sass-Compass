@@ -61,12 +61,12 @@ $normalize-tables                   : true;
 
 ## **BROWSER SUPPORT** ##
 
-Google Chrome (latest)
-Mozilla Firefox (latest)
-Mozilla Firefox 4
-Opera (latest)
-Apple Safari 6+
-Internet Explorer 8+
+- Google Chrome (latest)
+- Mozilla Firefox (latest)
+- Mozilla Firefox 4
+- Opera (latest)
+- Apple Safari 6+
+- Internet Explorer 8+
 
 ### **CREDITS**
 - [Epic Monkeez](http://epicmonkeez.com/)
