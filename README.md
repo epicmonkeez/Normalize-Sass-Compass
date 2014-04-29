@@ -11,7 +11,7 @@ We have decided to break normalize.css apart and put it back together again. Wit
 
 No other styles should come before `_normalize.scss` other than sass/compass settings, mixins or dependencies.
 
-Include the _normalize.scss file in your Sass/Compass directory and import it into your main stylesheet:
+Include the `_normalize.scss` file in your Sass/Compass directory and import it into your main stylesheet:
 
 `@import 'normalize';`
 

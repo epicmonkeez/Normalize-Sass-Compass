@@ -77,8 +77,8 @@ $normalize-tables                   : true !default;
 // -------------------------------------------------------------------------------
 
 %inline-block {
-    @include _inline-block;
     vertical-align: baseline;
+    @include _inline-block;
 }
 
 
