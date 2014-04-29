@@ -1,16 +1,13 @@
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+/*! Normalize v3 for SASS/Compass v0.5 | MIT License | */
 img, audio,
 canvas,
 progress,
 video {
+  vertical-align: baseline;
   display: inline-block;
-  vertical-align: baseline; }
-  .lt-ie9 img, .lt-ie9 audio,
-  .lt-ie9 canvas,
-  .lt-ie9 progress,
-  .lt-ie9 video {
-    zoom: 1;
-    *display: inline; }
+  zoom: 1;
+  *display: inline; }
 
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
@@ -128,7 +125,7 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0; }
 
-.lt-ie9 mark {
+mark {
   background: #ff0;
   color: #000; }
 
@@ -148,10 +145,10 @@ sup {
 sub {
   bottom: -0.25em; }
 
-.lt-ie10 img {
+img {
   border: 0; }
 
-.lt-ie11 svg:not(:root) {
+svg:not(:root) {
   overflow: hidden; }
 
 figure {
@@ -209,7 +206,7 @@ input::-moz-focus-inner {
 input {
   line-height: normal; }
 
-.lt-ie10 input[type="checkbox"], .lt-ie10 input[type="radio"] {
+input[type="checkbox"], input[type="radio"] {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0; }

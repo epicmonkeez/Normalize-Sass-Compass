@@ -1,5 +1,5 @@
 # **Normalize v3**
-##### **for SASS/Compass v0.5**
+##### **for SASS/Compass v0.6**
 
 **Looking for the Less version? [Click here](https://github.com/epicmonkeez/Normalize-Less)**
 
@@ -23,37 +23,41 @@ The following settings may be changed:
 // LEGACY SUPPORT
 // -------------------------------------------------------------------------------
 
-$legacy-support-for-ie              : true;
-$legacy-support-for-ie7             : false;
-$legacy-support-for-ie8             : false;
-$legacy-support-for-ie9             : true;
-$legacy-support-for-ie10            : true;
-$legacy-support-for-ie11            : true;
-$legacy-browser-for-safari5         : true;
+$legacy-support-for-ie              : true !default;
+$legacy-support-for-ie7             : false !default;
+$legacy-support-for-ie8             : false !default;
+$legacy-support-for-ie9             : true !default;
+$legacy-support-for-ie10            : true !default;
+$legacy-support-for-ie11            : true !default;
+$legacy-support-for-safari          : true !default;
+$legacy-support-for-chrome          : true !default;
+$legacy-support-for-firefox         : true !default;
 
 // -------------------------------------------------------------------------------
-// EXPERIMENTAL SUPPORT // Added for future reference
+// EXPERIMENTAL SUPPORT
 // -------------------------------------------------------------------------------
 
-$experimental-suport-for-webkit     : true;
-$experimental-support-for-mozilla   : true;
-$experimental-support-for-microsoft : true;
-$experimental-suport                : true;
-$experimental-support-for-svg       : true;
-$retina-suport                      : true;
+$experimental-suport-for-webkit     : true !default;
+$experimental-support-for-mozilla   : true !default;
+$experimental-support-for-microsoft : true !default;
+$experimental-suport                : true !default;
+$experimental-support-for-svg       : true !default;
+$retina-suport                      : true !default;
 
 // -------------------------------------------------------------------------------
 // NORMALIZE SETTINGS
 // -------------------------------------------------------------------------------
 
-$normalize-custom                   : true;
-$normalize-display                  : true;
-$normalize-links                    : true;
-$normalize-textlevel                : true;
-$normalize-embeded-content          : true;
-$normalize-grouping-content         : true;
-$normalize-forms                    : true;
-$normalize-tables                   : true;
+$use-moderizr                       : true !default;
+
+$normalize-custom                   : true !default;
+$normalize-display                  : true !default;
+$normalize-links                    : true !default;
+$normalize-textlevel                : true !default;
+$normalize-embeded-content          : true !default;
+$normalize-grouping-content         : true !default;
+$normalize-forms                    : true !default;
+$normalize-tables                   : true !default;
 ```
 
 ### **DEPENDENCIES**
