@@ -1,13 +1,17 @@
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
-/*! Normalize v3 for SASS/Compass v0.5 | MIT License | */
+/*! Normalize v3 for SASS/Compass v0.6 | MIT License | */
 img, audio,
 canvas,
 progress,
 video {
   vertical-align: baseline;
-  display: inline-block;
-  zoom: 1;
-  *display: inline; }
+  display: inline-block; }
+  .lt-ie9 img, .lt-ie9 audio,
+  .lt-ie9 canvas,
+  .lt-ie9 progress,
+  .lt-ie9 video {
+    zoom: 1;
+    *display: inline; }
 
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
@@ -125,7 +129,7 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0; }
 
-mark {
+.lt-ie9 mark {
   background: #ff0;
   color: #000; }
 
@@ -145,10 +149,10 @@ sup {
 sub {
   bottom: -0.25em; }
 
-img {
+.lt-ie10 img {
   border: 0; }
 
-svg:not(:root) {
+.lt-ie11 svg:not(:root) {
   overflow: hidden; }
 
 figure {
@@ -180,7 +184,7 @@ textarea {
   font: inherit;
   margin: 0; }
 
-button {
+.lt-ie11 button {
   overflow: visible; }
 
 button,
@@ -206,7 +210,7 @@ input::-moz-focus-inner {
 input {
   line-height: normal; }
 
-input[type="checkbox"], input[type="radio"] {
+.lt-ie10 input[type="checkbox"], .lt-ie10 input[type="radio"] {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0; }
@@ -227,10 +231,11 @@ fieldset {
   padding: 0.35em 0.625em 0.75em; }
 
 legend {
-  border: 0;
   padding: 0; }
+  .lt-ie11 legend {
+    border: 0; }
 
-textarea {
+.lt-ie11 textarea {
   overflow: auto; }
 
 optgroup {
