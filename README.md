@@ -1,6 +1,8 @@
 # **Normalize v3**
 ##### **for SASS/Compass v0.5**
 
+**Looking for the Less version? [Click here](https://github.com/epicmonkeez/Normalize-Less)**
+
 [Normalize.css](https://github.com/necolas/normalize.css) is a customisable CSS file that makes browsers render all elements more consistently and in line with modern standards. But for some projects you might not need forms, so why reset them? For some projects you might not need tables, so why reset them?
 
 We have decided to break normalize.css apart and put it back together again. With `_normalize.scss` you have now the ability to use only the resets you need, add your own custom resets and change browser support. `Normalize.scss` supports also [Modernizr](http://modernizr.com/).
