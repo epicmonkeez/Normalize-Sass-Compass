@@ -6,14 +6,13 @@
 // -------------------------------------------------------------------------------
 
 $legacy-support-for-ie              : true !default;
-$legacy-support-for-ie7             : false !default;
 $legacy-support-for-ie8             : false !default;
 $legacy-support-for-ie9             : true !default;
 $legacy-support-for-ie10            : true !default;
 $legacy-support-for-ie11            : true !default;
 $legacy-support-for-safari          : true !default;
 $legacy-support-for-chrome          : true !default;
-$legacy-support-for-firefox          : true !default;
+$legacy-support-for-firefox         : true !default;
 
 // -------------------------------------------------------------------------------
 // EXPERIMENTAL SUPPORT
@@ -433,7 +432,7 @@ body {
 
     // Address `overflow` set to `hidden` in IE 8/9/10/11.
 
-    @if $legacy-support-for-ie == true {
+    @if $legacy-support-for-ie11 == true {
         button {
             @if $use-moderizr == true {
               .lt-ie11 & {
@@ -560,7 +559,7 @@ body {
     // 1. Correct `color` not being inherited in IE 8/9/10/11.
     // 2. Remove padding so people aren't caught out if they zero out fieldsets.
 
-    @if $legacy-support-for-ie == true {
+    @if $legacy-support-for-ie11 == true {
         legend {
             @if $use-moderizr == true {
                 .lt-ie11 & {
@@ -575,7 +574,7 @@ body {
     }
 
     // Remove default vertical scrollbar in IE 8/9/10/11.
-    @if $legacy-support-for-ie == true {
+    @if $legacy-support-for-ie11 == true {
         textarea {
             @if $use-moderizr == true {
                 .lt-ie11 & {
