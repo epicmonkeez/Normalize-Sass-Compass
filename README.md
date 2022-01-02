@@ -1,3 +1,6 @@
+
+## NO LONGER MAINTAINED 
+
 # **Normalize v3**
 ##### **for SASS/Compass v0.6**
 
@@ -81,8 +84,6 @@ $normalize-tables                   : true !default;
 ### **LICENSE**
 
 Normalize for Sass/Compass and Normalize v3 are [MIT licensed](http://opensource.org/licenses/mit-license.php).
-
-Copyright (c) 2014 Epic Monkeez
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
